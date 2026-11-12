@@ -1,0 +1,33 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Dataset files
+data/*.csv
+data/*.xlsx
+
+# Lambda deployment package
+lambda.zip
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
